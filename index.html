@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Biodata</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilos/normalize.css" />
+    <link rel="stylesheet" href="estilos/style.css" />
+    <link rel="icon" type="image/vnd.microsoft.icon" href="img/icon.png" />
+    <script
+      src="https://kit.fontawesome.com/9c93b1aa4e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--Menu header-->
+    <nav class="nav-index">
+      <li class="nav_li">
+        <a
+          href="http://www.biodatasa.com.ar/sistema-clientes/login"
+          class="nav_li_btn"
+          target="_blank"
+          >Facturas
+        </a>
+      </li>
+      <span>|</span>
+      <li class="nav_li">
+        <a href="html/profile.html" class="nav_li_btn">Clientes BioData </a>
+      </li>
+      <span>|</span>
+      <li class="nav_li" id="manuales">
+        <a href="html/manuales.html" class="nav_li_btn">Manuales </a>
+      </li>
+      <span id="spanManual">|</span>
+      <li class="nav_li">
+        <a href="html/quienesSomos.html" class="nav_li_btn">¿Quienes Somos?</a>
+      </li>
+      <span>|</span>
+      <li class="nav_li">
+        <a href="html/contacto.html" class="nav_li_btn">Contacto</a>
+      </li>
+      <span>|</span>
+      <li class="nav_li">
+        <a href="html/descargas.html" class="nav_li_btn">Descargas</a>
+      </li>
+    </nav>
+    <div class="respmenu">
+      <input type="checkbox" />
+      <i class="fas fa-bars"></i>
+      <i class="fas fa-times"></i>
+      <nav>
+        <ul>
+          <li>
+            <a
+              href="http://www.biodatasa.com.ar/sistema-clientes/login"
+              target="_blank"
+              >FACTURAS</a
+            >
+          </li>
+          <li>
+            <a href="html/profile.html">CLIENTES BIODATA</a>
+          </li>
+          <li id="manuales"><a href="html/manuales.html">MANUALES</a></li>
+          <li>
+            <a href="html/quienesSomos.html">¿QUIENES SOMOS?</a>
+          </li>
+          <li><a href="html/contacto.html">CONTACTO</a></li>
+          <li><a href="html/descargas.html">DESCARGAS</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!--Header-->
+    <header>
+      <div class="header-container">
+        <img
+          src="img/biodatalogo.png"
+          alt="Logo de Biodata"
+          class="header-logo"
+        />
+        <div class="header-txt-container">
+          <div class="header-info">
+            <p class="header-txt">
+              Desarrollamos software para laboratorio de Analisis Clinicos,
+              nuestro objetivo es la gestion tecnica y administrativa integral
+              de los datos que son la tarea del laboratorio.
+            </p>
+            <p class="header-txt">
+              Trabajamos para consolidar las situaciones particulares que
+              presenta el sistema en cada laboratorio, para de este modo
+              optimizar el rendimiento en cada una de ellas, contemplado las
+              variadas opciones. Tenemos mas de 1000 equipos conectados en forma
+              bidireccional.
+            </p>
+            <form
+              action="php/demo.php"
+              class="form-demo"
+              method="POST"
+              id="form-demo"
+            >
+              <input
+                type="text"
+                placeholder="Su e-mail"
+                class="form-demo-input"
+                name="email"
+                required
+              />
+              <input
+                type="submit"
+                value="Solicite un demo"
+                class="form-demo-btn"
+              />
+            </form>
+          </div>
+          <div class="header-contact">
+            <p class="contact-txt telefono">0236 - 4231050</p>
+            <p class="contact-txt horario"><span class="bold">Lunes</span> a <span class="bold">Viernes</span> de 08:00 a 18:00</p>
+            <p class="contact-txt horario guardia"><span class="bold">Sábados</span> guardia de 09:00 a 13:00</p>
+            <p class="contact-txt localidad">
+              Junin - Buenos Aires (Argentina)
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <article class="novedades" id="container-novedades">
+      <h2 class="titles">Novedades</h2>
+    </article>
+    <article class="labwin">
+      <h2 class="titles">Nuestro Producto</h2>
+      <div class="producto-container">
+        <div class="sobreLabwin">
+          <img
+            src="img/logoLabwin.png"
+            alt="Logo de labwin"
+            class="img-title"
+          />
+          <p>
+            LabWin es el sistema administrativo para laboratorios de análisis
+            clínicos mas completo del mercado. Fue diseñado para satisfacer
+            todas las exigencias que plantea la gestión técnica y administrativa
+            de los laboratorios de análisis clínicos, pensado en una interfase
+            intuitiva, auto-informativa fácil de aprender para todos los
+            usuarios de Windows. La licencia básica abarca el ingreso del
+            paciente con autorización online, impresión de talón y rotulo de
+            código de barras para el tubo, impresión de las listas de trabajo
+            por sección, el ingreso de los resultados y la impresión del
+            informe.
+          </p>
+        </div>
+        <div class="logo-container" id="logo-container">
+          <img
+            src="img/labwin2.jpg"
+            alt="Captura de pantalla del software Labwin 4"
+            class="logo"
+            id="logo"
+          />
+        </div>
+      </div>
+    </article>
+    <article class="cards-container">
+      <h2 class="titles">Funcionalidades</h2>
+      <div class="cards">
+        <section class="card card-bidirec">
+          <img src="img/plug.png" alt="" class="card-img" />
+          <h2 class="card-title">Bidireccionales</h2>
+
+          <a href="html/interfases.html" class="card-vermas">VER MAS</a>
+        </section>
+        <section class="card card-qr">
+          <img src="img/qr.png" alt="" class="card-img" />
+          <h2 class="card-title">Cloud y QR</h2>
+          <a
+            href="downloads/manuales/labwinCloud.doc"
+            download="Labwin Cloud"
+            class="card-vermas"
+            >VER MAS</a
+          >
+        </section>
+        <section class="card card-users">
+          <img src="img/users.png" alt="" class="card-img" />
+          <h2 class="card-title card-title-users">Control de Usuarios</h2>
+
+          <a
+            href="downloads/manuales/Control-de-acceso-por-Usuarios.pdf"
+            download="Control de Usuarios"
+            class="card-vermas"
+            >VER MAS</a
+          >
+        </section>
+      </div>
+      <div class="btn-card-container">
+        <a href="html/funcionalidades/funcionalidades.html" class="btn-cards"
+          >Ver todas</a
+        >
+      </div>
+    </article>
+    <article class="about">
+      <h2 class="titles about-title" id="porQueLabwin">¿Por que LabWin?</h2>
+      <div class="">
+        <div class="about-row">
+          <div class="about-card">
+            <img src="img/porqueLabwin1.png" alt="" class="about-img" />
+            <div class="about-txt">
+              <h3 class="about-card-title underline">Desarrollo</h3>
+              <p class="about-info">
+                <span class="checked">&#10004;</span> Diseñado para satisfacer
+                todas las exigencias que plantea la gestión técnica y
+                administrativa de los laboratorios de análisis clínicos
+              </p>
+              <p class="about-info">
+                <span class="checked">&#10004;</span> Está en continuo
+                desarrollo
+              </p>
+            </div>
+          </div>
+          <div class="about-card">
+            <img src="img/porqueLabwin2.png" alt="" class="about-img" />
+            <div class="about-txt">
+              <h3 class="about-card-title underline">Seguridad</h3>
+              <p class="about-info">
+                <span class="checked">&#10004;</span> Aumenta la seguridad
+                opetativa, ahorra tiempo y aumenta la productividad del personal
+              </p>
+              <p class="about-info">
+                <span class="checked">&#10004;</span> Posee alta versatilidad y
+                gran prosibilidad de personalización
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="about-row">
+          <div class="about-card">
+            <img src="img/porqueLabwin3.png" alt="" class="about-img" />
+            <div class="about-txt">
+              <h3 class="about-card-title underline">Informes</h3>
+              <p class="about-info">
+                <span class="checked">&#10004;</span> Tiene máxima calidad de
+                impresión de protocolos y otros documentos, en distintos
+                formatos incluido PDF.
+              </p>
+              <p class="about-info">
+                <span class="checked">&#10004;</span> Tiene generación
+                automatizada de e-mails y subida a la nube, con resultados para
+                pacientes y médicos
+              </p>
+            </div>
+          </div>
+          <div class="about-card">
+            <img src="img/porqueLabwin4.png" alt="" class="about-img" />
+            <div class="about-txt">
+              <h3 class="about-card-title underline">Usuarios</h3>
+              <p class="about-info">
+                <span class="checked">&#10004;</span> Posee una total
+                trazabilidad de toda la información. La misma es inalterable por
+                el usuario
+              </p>
+              <p class="about-info">
+                <span class="checked">&#10004;</span> Tiene control de tareas
+                por usuario con diferentes niveles de acceso, registro de uso de
+                los programas por usuarios.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <footer class="footer">
+      <div class="footer-container">
+        <h5 class="footer-title underline">LabWin</h5>
+        <a href="html/funcionalidades/funcionalidades.html" class="footer-btn">
+          Modulos
+        </a>
+        <a href="#porQueLabwin" class="footer-btn"> ¿Por que LabWin? </a>
+      </div>
+      <div class="footer-container">
+        <h5 class="footer-title underline">BioData</h5>
+        <a href="html/profile.html" class="footer-btn">Acceso Clientes</a>
+        <a href="html/quienesSomos.html" class="footer-btn">¿Quienes Somos?</a>
+      </div>
+      <div class="footer-container">
+        <h5 class="footer-title underline">Contactenos</h5>
+
+        <div class="footer-col">
+          <img class="footer-img" src="img/tel.png" alt="Imagen de telefono" />
+          <div class="footer-row">
+            <h5 class="footer-title">Teléfono</h5>
+            <p class="footer-btn">0236-4231050</p>
+          </div>
+        </div>
+        <div class="footer-col">
+          <img class="footer-img" src="img/mail.png" alt="Imagen de carta" />
+          <div class="footer-row">
+            <h5 class="footer-title">E-Mail</h5>
+            <p class="footer-btn">biodata.comercial@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <p class="autor">
+      Hecho por
+      <a href="https://www.linkedin.com/in/agustin-aguirre/" target="_blank"
+        >AA</a
+      >
+    </p>
+    <script src="js/controlLoginIndex.js"></script>
+    <script src="js/home.js"></script>
+  </body>
+</html>

@@ -1,0 +1,176 @@
+.btn-enviar{
+    margin: 0 auto;
+    margin-top: 20px;
+    display: block;
+    background-color: #509264;
+    padding: 10px 130px;
+    border-radius: 20px;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.btn-enviar:hover{
+    background-color: #8ac597;
+    color: #fff;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.contacto-title{
+    margin: 60px auto 0 30px;
+    font-style: italic;
+    padding: 5px;  
+    border-bottom: 2px solid #8ac597;
+    margin-bottom: 5px;
+    display: inline-block;
+    padding-right: 25%;
+    padding-bottom: 0;
+}
+
+.container{
+    background-color: #eee;
+    padding-bottom: 80px
+}
+
+.container-contacto{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container-form{
+    width: 50%;
+}
+
+.container-numeros{
+    width: 40%;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px 0;
+    color: #444;
+}
+
+.formulario{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 20px 0;
+    flex-wrap: wrap;
+    min-width: 350px;
+}
+
+.form-campo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form-right{
+  align-self: flex-start;
+  
+}
+
+.input, textarea{
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    background-color: #fff;
+    border-color: #8ac597;
+}
+
+.input:focus{
+    border-color: #509264;
+}
+
+.label {
+    color: #444;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.num-title{
+    font-size: 26px;
+    color: #444;
+    font-style: italic;
+    border-bottom: 2px solid #8ac597;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+#numTel{
+    font-size: 36px;
+}
+
+.radios{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.tel{
+    color: #444;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+textarea:focus{
+    border-color: #509264;
+}
+
+textarea{
+    padding-left: 20px;
+    padding-right: 20px;
+    resize: none;
+}
+
+.txt{
+    font-style: italic;
+    font-size: 18px;
+    color: rgb(112, 111, 111);
+}
+
+@media (max-width: 768px) {
+    .container-contacto{
+        flex-direction: column-reverse;
+        align-items: center;
+        min-width: 0;
+    }
+
+    .container-form{
+        width: 80%;
+    }
+
+    .container-numeros{
+       width: 80%;
+       margin-bottom: 20px;
+    }
+
+    .formulario{
+        min-width: 0;
+    }
+
+    .btn-enviar{
+        width: 90%;
+        align-items: center;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .form-right{
+        width: 90%;
+    }
+
+    .form-left{
+        width: 90%;
+    }
+ }

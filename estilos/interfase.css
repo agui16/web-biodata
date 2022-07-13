@@ -1,0 +1,33 @@
+.interfases-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;   
+}
+
+.interfase{
+    border-color: #509264;
+    background-color: #ddd;
+    border-bottom-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.interfase h3{
+    font-weight: 500;
+}
+
+h2{
+    margin-top: 50px;
+}
+
+@media (max-width: 864px) {
+    .interfases-container{
+        grid-template-columns: 50% 50% ; 
+        /* max-width: 100%;  */
+    }
+}
+
+@media (max-width: 400px) {
+    .interfases-container{
+        grid-template-columns: 100% ; 
+        /* max-width: 100%;  */
+    }
+}
